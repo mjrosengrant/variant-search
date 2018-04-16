@@ -6,5 +6,5 @@ from django.shortcuts import render
 
 
 def index_view(request):
-    """Render the main search page."""
-    return render(request, 'search/index.html', {})
+	"""Render the main search page."""
+	return render(request, 'search/index.html', {})

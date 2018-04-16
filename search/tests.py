@@ -6,13 +6,13 @@ from django.urls import reverse
 
 
 class SearchIndexViewTestCase(TestCase):
-    """Test the app's main search functionality."""
+	"""Test the app's main search functionality."""
 
-    def setUp(self, *args, **kwargs):
-        self.client = Client()
-        self.url = reverse('search:index')
+	def setUp(self, *args, **kwargs):
+		self.client = Client()
+		self.url = reverse('search:index')
 
-    def test_get(self):
-        response = self.client.get(self.url)
-        self.assertEqual(response.status_code, 200)
-        return True
+	def test_get(self):
+		response = self.client.get(self.url)
+		self.assertEqual(response.status_code, 200)
+		return True
