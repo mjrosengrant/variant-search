@@ -5,6 +5,6 @@ from django.apps import AppConfig
 
 
 class SearchConfig(AppConfig):
-	"""Search Config."""
+    """Search Config."""
 
-	name = 'search'
+    name = 'search'
