@@ -11,8 +11,8 @@ Notes
 - By default the app is connected to a Postgres instance running on Heroku. Please excuse the hardcoded credentials; In production code that would never happen ;)
 
 
-# Background
-Assignment
+# Assignment
+
 
 -----------------
 
