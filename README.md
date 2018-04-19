@@ -1,8 +1,9 @@
 # Set Up:
-`pip install -r requirements.txt`
-`python manage.py import_data`
-`python manage.py runserver`
- 
+```
+pip install -r requirements.txt`
+python manage.py import_data`
+python manage.py runserver`
+ ```
  
  
 Notes
