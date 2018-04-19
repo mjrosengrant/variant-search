@@ -1,7 +1,16 @@
-Hey Mike,
-
-Here’s the coding assignment that you want to complete and send back to me so I can get it to their team before Friday:
+# Set Up:
+`pip install -r requirements.txt`
+`python manage.py import_data`
+`python manage.py runserver`
  
+ 
+ 
+Notes
+- For import_data command to work, the file `variant_results.tsv` must be added to the folder `/api`.
+- By default the app is connected to a Postgres instance running on Heroku. Please excuse the hardcoded credentials; In production code that would never happen ;)
+
+
+# Background
 Assignment
 
 -----------------
