@@ -1,16 +1,14 @@
 # Set Up:
 ```
 pip install -r requirements.txt`
-python manage.py import_data`
 python manage.py runserver`
  ```
  
  
 Notes
-- For import_data command to work, the file `variant_results.tsv` must be added to the project root directory`.
-Download this from `http://clinvitae.invitae.com/download` 
-- By default the app is connected to a Postgres instance running on Heroku. Please excuse the hardcoded credentials; In production code that would never happen ;)
-
+- By default the app is connected to a Postgres instance running on Heroku. Please excuse the hardcoded credentials; In production code that would never happen. 
+- The database comes prepopulated with data, but management command `import_data` has been provided to add more.
+- For `import_data` to work, the file `variant_results.tsv` must be added to the project root directory`. Can be downloaded from `http://clinvitae.invitae.com/download` 
 
 # Assignment
 
