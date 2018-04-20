@@ -19,9 +19,9 @@ $(document).ready(function() {
 							 '<td>' + variant.region + '</td>' +
 							 '<td>' + variant.reported_classification + '</td>' +
 							 '<td>' + variant.last_evaluated + '</td>' +
-							 '<td>' + variant.last_updated + '</td>'
+							 '<td>' + variant.last_updated + '</td>' +
+							 '</tr>'
 				});
-				output +="</tr>"
 				$("#variantTable > tbody tr").remove();
 				$('#variantTable').find('tbody:last').append(output);
 
