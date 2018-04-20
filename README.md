@@ -7,7 +7,7 @@ python manage.py runserver`
  
  
 Notes
-- For import_data command to work, the file `variant_results.tsv` must be added to the folder `api/`.
+- For import_data command to work, the file `variant_results.tsv` must be added to the project root directory`.
 Download this from `http://clinvitae.invitae.com/download` 
 - By default the app is connected to a Postgres instance running on Heroku. Please excuse the hardcoded credentials; In production code that would never happen ;)
 

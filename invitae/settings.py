@@ -77,8 +77,12 @@ WSGI_APPLICATION = 'invitae.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'da94616v3t3k0l',
+        'USER': 'svqjhkkxscbyyn',
+        'PASSWORD': 'c2c57c5711ddec60c5dfffc6dd98fba3cf5400fd30bf4101ce16d566db56c124',
+        'HOST': 'ec2-50-16-196-238.compute-1.amazonaws.com',
+        'PORT': '',
     }
 }
 
@@ -120,3 +124,4 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.11/howto/static-files/
 
 STATIC_URL = '/static/'
+STATIC_ROOT = '%s/static/' % BASE_DIR

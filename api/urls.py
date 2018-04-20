@@ -4,5 +4,5 @@ from api import views
 
 
 urlpatterns = [
-	url(r'^variants/$', views.variant_list_view, name="variants")
+    url(r'^variants/$', views.variant_list_view, name="variants")
 ]
